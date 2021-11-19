@@ -1,0 +1,25 @@
+//pg 71, 72
+
+#include <stdio.h>
+
+int main()
+{
+	/* local variable definition */ 
+	int a = 10;
+
+    /* do loop execution */
+    do 
+    {
+    	if (a == 15) 
+    	{
+    		/* skip the iteration */
+    		a = a + 1;
+    		continue;
+    	}
+
+    	printf("Value of A is %d \n", a);
+    	a++;
+    } while (a < 20);
+
+    return 0;
+}
